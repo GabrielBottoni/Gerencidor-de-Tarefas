@@ -1,38 +1,103 @@
-.App {
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f4;
+  padding: 30px;
+  color: #3e1d05;
+  background-image: url('./img/stardew-valley-mountains-and-sky.jpg');
+  background-position-x: center;
+  background-size: cover;
+}
+
+.app{
+  max-width: 600px;
+  margin: 0 auto 300px;
+  background-color: #efef7b;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+h1 {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2 {
+  margin-bottom: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+p {
+margin: 10px 0;  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+input {
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #8e4009;
+  color: #fff;
+  padding: 5px 10px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+.todo-list {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #3e1d05;
+}
+
+.todo {
+background-color: #eeee56; 
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+padding: 10px;
+margin-bottom: 10px;
+border-radius: 6px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.complete {
+  background-color: #7dc303;
+}
+
+.remove {
+  background-color: #a41010;
+}
+
+.todo-form {
+  padding-bottom: 1.5rem;
+}
+
+input, select {
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #FFF;
+  border-radius: 3px;
+  width: 100%;
+}
+
+.filter, 
+.search {
+  border-bottom: 1px solid #555;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.filter-options {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  gap: 3rem;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.filter-options div {
+  flex: 1 1 0;
 }
