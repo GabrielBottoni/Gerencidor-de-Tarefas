@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# **Gerenciador de Tarefas**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Um Gerenciador de Tarefas Simples, desenvolvido com React, HTML, CSS e JavaScript, para praticar habilidades front-end e organizar tarefas de maneira eficiente.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## **Índice**
+1. [Descrição](#descrição)
+2. [Demonstração](#demonstração)
+3. [Funcionalidades](#funcionalidades)
+4. [Tecnologias Utilizadas](#tecnologias-utilizadas)
+5. [Como Executar o Projeto](#como-executar-o-projeto)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## **Descrição**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Este projeto é um estudo de caso para aprender e aplicar os conceitos de desenvolvimento front-end utilizando o **React**. A aplicação permite ao usuário adicionar, editar, excluir e organizar suas tarefas de forma intuitiva, oferecendo uma interface simples e funcional.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## **Demonstração**
 
-### `npm run build`
+Adicione uma imagem ou GIF mostrando o projeto em ação.  
+**Exemplo:**  
+![Demonstração](![image](https://github.com/user-attachments/assets/32aea647-048e-4bcc-83e0-e8eb2f1374f1)
+)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## **Funcionalidades**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- ✅ Adicionar novas tarefas.  
+- ✅ Marcar tarefas como concluídas.  
+- ✅ Editar tarefas existentes.  
+- ✅ Excluir tarefas.  
+- ✅ Salvar dados localmente no navegador usando **localStorage**.  
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## **Tecnologias Utilizadas**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **React**: Framework JavaScript para construção de interfaces.  
+- **HTML5**: Estrutura da aplicação.  
+- **CSS3**: Estilização da interface.  
+- **JavaScript (ES6+)**: Lógica da aplicação e manipulação de dados.  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## **Como Executar o Projeto**
 
-## Learn More
+### **Pré-requisitos**
+- **Node.js** (versão 16 ou superior).  
+- npm (ou yarn) instalado.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### **Clonar o Repositório**
+Execute os comandos abaixo no terminal:
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+git clone https://github.com/seu-usuario/gerenciador-de-tarefas.git
+cd gerenciador-de-tarefas
+>>>>>>> 3a9524dd8e4fab840d9efdcbda44d1a9746183d4
