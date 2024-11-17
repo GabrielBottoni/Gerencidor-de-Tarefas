@@ -21,10 +21,7 @@ Este projeto é um estudo de caso para aprender e aplicar os conceitos de desenv
 
 ## **Demonstração**
 
-Adicione uma imagem ou GIF mostrando o projeto em ação.  
-**Exemplo:**  
-![Demonstração](![image](https://github.com/user-attachments/assets/32aea647-048e-4bcc-83e0-e8eb2f1374f1)
-)
+![Demonstração](./public/imagemprojeto.png)
 
 ---
 
@@ -32,7 +29,6 @@ Adicione uma imagem ou GIF mostrando o projeto em ação.
 
 - ✅ Adicionar novas tarefas.  
 - ✅ Marcar tarefas como concluídas.  
-- ✅ Editar tarefas existentes.  
 - ✅ Excluir tarefas.  
 - ✅ Salvar dados localmente no navegador usando **localStorage**.  
 
